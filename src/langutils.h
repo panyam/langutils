@@ -8,7 +8,7 @@ extern "C" {
 
 #include "lufwddefs.h"
 #include "lutokenizer.h"
-#include "lullparser.h"
+#include "luparser.h"
 #include "luast.h"
 #include "lutypes.h"
 
