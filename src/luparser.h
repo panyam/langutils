@@ -33,6 +33,7 @@ DECLARE_CLASS(LUCFGParser, LUCFGParserPrototype,
     int numRules;
     int *assocs;        // associativity for each terminal if any - default = "nonassoc"
     int *precedences;   // precedence for each terminal - if any - default = 100
+    void *extraData;
 );
 
 extern LUCFGParserPrototype *lu_llparser_prototype();
