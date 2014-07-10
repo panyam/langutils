@@ -12,6 +12,11 @@ extern "C" {
 // typedef enum LUASTNumberType LUASTNumberType;
 // typedef enum LUASTNodeType LUASTNodeType;
 typedef struct LUTokenizer LUTokenizer;
+typedef struct LUCFGRule LUCFGRule;
+typedef struct LUCFGReduction LUCFGReduction;
+typedef struct LUCFGParser LUCFGParser;
+typedef struct LUCFGParserPrototype LUCFGParserPrototype;
+
 typedef struct LUToken LUToken;
 typedef struct LUTypePrototype LUTypePrototype;
 typedef struct LUTypeZone LUTypeZone;
